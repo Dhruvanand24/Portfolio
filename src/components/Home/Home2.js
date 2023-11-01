@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I try to keep on larning 
+              I fell in love with programming at an early age and I try to keep on larning 
               something new...
               <br />
               <br />I am fluent in classics like
@@ -48,9 +48,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+          
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
