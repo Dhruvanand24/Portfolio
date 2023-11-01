@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import andern from "../../Assets/Projects/andern.live.png";
+import medicinefinder from "../../Assets/Projects/MedicineFinder.png";
+import divmedia from "../../Assets/Projects/Divmedia.in.png";
+import gameNexus from "../../Assets/Projects/GameNexus.png";
+import taskmanager from "../../Assets/Projects/TaskManager.png";
+
 
 function Projects() {
   return (
@@ -23,70 +23,60 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={andern}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="andern.live"
+              description="Esports tournaments statistics and points table website with minimalistic UI and smooth user experience. This website shows points and standings in realtime which no other website is doing right now."
+              ghLink="https://github.com/himanshu1721/esportsx_user"
+              demoLink="https://www.andern.live/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={divmedia}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="divmedia.in"
+              description="buy affordable assets for your products using this website and create a larger user base for your product. Media and assets can be used for marketing."
+              ghLink="#"
+              demoLink="https://www.divmedia.in/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={gameNexus}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="GameNexus"
+              description="A large game database with all the information about the game. It has over 800k games and games can be searched individually on search bar. The data is fetched from an api with fast response."
+              ghLink="https://github.com/Dhruvanand24/game-nexus"
+              demoLink="https://game-nexus-omega.vercel.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={medicinefinder}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Medicine Finder"
+              description="A quick way to find medicine in your city. User will type any medicine name in the search bar and every medical shop in that city will get a notification for the requested medicine. If the shop has the medicine they can accept the req and a location and contact info will be sent to the user."
+              ghLink="https://github.com/Dhruvanand24/Medicine-Searching-Platform"
+              demoLink="https://dhruvanand24.github.io/Medicine-Searching-Platform/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={taskmanager}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Collaborative Task Manager"
+              description="A collaborative task manager where user can assign tasks to other users. It has basic functionality of editing, deleting, complete task button, pending task button. Also users can add comments on individual tasks."
+              ghLink="https://github.com/Dhruvanand24/taskmanager"
+              demoLink="https://taskmanager-1xlb.vercel.app/login" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
