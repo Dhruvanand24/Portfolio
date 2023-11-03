@@ -85,7 +85,6 @@ function Home2() {
                 <a
                   href="mailto:ananddhruv475@gmail.com"
                   target="_blank"
-                  rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineMail />
