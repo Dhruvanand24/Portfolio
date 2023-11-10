@@ -9,10 +9,12 @@ import {
   DiNodejs,
   DiPython,
   DiGit,
-  DiMysql,
+  DiMongodb
 } from "react-icons/di";
 import {
   SiFirebase,
+  SiMysql,
+  SiExpress,
 
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -35,6 +37,16 @@ function Techstack() {
         <DiReact />
       </Col>
       </Tippy>
+      <Tippy content={<span>NodeJS</span>}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      </Tippy>
+      <Tippy content={<span>MongoDB</span>}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      </Tippy>
       <Tippy content={<span>Git</span>}>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -52,7 +64,7 @@ function Techstack() {
       </Tippy>
       <Tippy content={<span>MySql</span>}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <SiMysql />
       </Col>
       </Tippy>
     </Row>
