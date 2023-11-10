@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="divmedia.in"
               description="buy affordable assets for your products using this website and create a larger user base for your product. Media and assets can be used for marketing."
-              ghLink="#"
+              ghLink=""
               demoLink="https://www.divmedia.in/"
             />
           </Col>
