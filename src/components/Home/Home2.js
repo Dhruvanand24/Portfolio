@@ -3,11 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiOutlineMail
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -20,8 +16,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming at an early age and I try to keep on larning 
-              something new...
+              I fell in love with programming at an early age and I try to keep
+              on larning something new...
               <br />
               <br />I am fluent in classics like
               <i>
@@ -32,12 +28,11 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b>
-                
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">ReactJS</b> 
+              with <b className="purple">MernStack</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -49,7 +44,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-          
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -61,7 +56,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/dhruv-anand-25b281203/"

@@ -1,6 +1,6 @@
 import React from "react";
-import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css'; 
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
@@ -14,19 +14,24 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Tippy content={<span>Visual Studio Code</span>}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiVisualstudiocode />
+        </Col>
       </Tippy>
       <Tippy content={<span>Slack</span>}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiSlack />
+        </Col>
       </Tippy>
       <Tippy content={<span>Vercel</span>}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiVercel />
+        </Col>
+      </Tippy>
+      <Tippy content={<span>PostMan</span>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiPostman />
+        </Col>
       </Tippy>
     </Row>
   );
