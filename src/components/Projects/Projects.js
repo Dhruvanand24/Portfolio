@@ -8,7 +8,6 @@ import divmedia from "../../Assets/Projects/Divmedia.in.png";
 import gameNexus from "../../Assets/Projects/GameNexus.png";
 import taskmanager from "../../Assets/Projects/TaskManager.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -32,7 +31,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={divmedia}
               isBlog={false}
@@ -41,7 +40,7 @@ function Projects() {
               ghLink=""
               demoLink="https://www.divmedia.in/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,7 +49,7 @@ function Projects() {
               title="GameNexus"
               description="A large game database with all the information about the game. It has over 800k games and games can be searched individually on search bar. The data is fetched from an api with fast response."
               ghLink="https://github.com/Dhruvanand24/game-nexus"
-              demoLink="https://game-nexus-omega.vercel.app/"              
+              demoLink="https://game-nexus-omega.vercel.app/"
             />
           </Col>
 
@@ -72,11 +71,9 @@ function Projects() {
               title="Collaborative Task Manager"
               description="A collaborative task manager where user can assign tasks to other users. It has basic functionality of editing, deleting, complete task button, pending task button. Also users can add comments on individual tasks."
               ghLink="https://github.com/Dhruvanand24/taskmanager"
-              demoLink="https://taskmanager-1xlb.vercel.app/login" 
+              demoLink="https://taskmanager-1xlb.vercel.app/login"
             />
           </Col>
-
-          
         </Row>
       </Container>
     </Container>
