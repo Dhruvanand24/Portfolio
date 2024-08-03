@@ -8,6 +8,7 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiFigma,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -31,6 +32,11 @@ function Toolstack() {
       <Tippy content={<span>PostMan</span>}>
         <Col xs={4} md={2} className="tech-icons">
           <SiPostman />
+        </Col>
+      </Tippy>
+      <Tippy content={<span>Figma</span>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFigma />
         </Col>
       </Tippy>
     </Row>
