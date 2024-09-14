@@ -37,6 +37,8 @@ const ExperienceCard = ({ props }) => {
         border: "1px solid #c770f0",
         borderRadius: "4px",
         marginBottom: "30px",
+        flexWrap: "wrap", // Add this line for wrapping
+        wordWrap: "break-word", // Ensure long words break
       }}
     >
       <h1 style={{ fontSize: "1.5rem", marginBottom: "10px" }}>
