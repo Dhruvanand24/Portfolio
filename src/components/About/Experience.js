@@ -21,6 +21,10 @@ const Experience = () => {
         "Git",
         "FlowBite",
         "DaisyUi",
+        "RAG",
+        "Android Development",
+        "Docker",
+        "ShadCn",
       ],
       Description: [
         {

@@ -11,7 +11,13 @@ import {
   DiGit,
   DiMongodb,
 } from "react-icons/di";
-import { SiFirebase, SiMysql, SiExpress, SiSvelte } from "react-icons/si";
+import {
+  SiFirebase,
+  SiMysql,
+  SiExpress,
+  SiSvelte,
+  SiFastapi,
+} from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
@@ -71,6 +77,11 @@ function Techstack() {
       <Tippy content={<span>MySql</span>}>
         <Col xs={4} md={2} className="tech-icons">
           <SiMysql />
+        </Col>
+      </Tippy>
+      <Tippy content={<span>FastApi</span>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFastapi />
         </Col>
       </Tippy>
     </Row>

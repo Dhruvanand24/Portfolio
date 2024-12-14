@@ -9,6 +9,8 @@ import {
   SiVercel,
   SiMacos,
   SiFigma,
+  SiDocker,
+  SiAndroidstudio,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -37,6 +39,16 @@ function Toolstack() {
       <Tippy content={<span>Figma</span>}>
         <Col xs={4} md={2} className="tech-icons">
           <SiFigma />
+        </Col>
+      </Tippy>
+      <Tippy content={<span>Docker</span>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiDocker />
+        </Col>
+      </Tippy>
+      <Tippy content={<span>Android Studio</span>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiAndroidstudio />
         </Col>
       </Tippy>
     </Row>

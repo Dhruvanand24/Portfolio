@@ -7,6 +7,7 @@ import medicinefinder from "../../Assets/Projects/MedicineFinder.png";
 import divmedia from "../../Assets/Projects/Divmedia.in.png";
 import gameNexus from "../../Assets/Projects/GameNexus.png";
 import taskmanager from "../../Assets/Projects/TaskManager.png";
+import Iris from "../../Assets/Iris.png";
 
 function Projects() {
   return (
@@ -22,16 +23,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={andern}
+              imgPath={Iris}
               isBlog={false}
-              title="andern.live"
-              description="Esports tournaments statistics and points table website with minimalistic UI and smooth user experience. This website shows points and standings in realtime which no other website is doing right now."
-              ghLink="https://github.com/himanshu1721/esportsx_user"
-              demoLink="https://www.andern.live/"
+              title="Iris"
+              description="A chat app that runs LLMs locally on device"
+              ghLink="https://github.com/nerve-sparks/iris_android"
+              demoLink="https://github.com/nerve-sparks/iris_android"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={divmedia}
               isBlog={false}
@@ -40,7 +41,7 @@ function Projects() {
               ghLink=""
               demoLink="https://www.divmedia.in/"
             />
-          </Col> */}
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -64,7 +65,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskmanager}
               isBlog={false}
@@ -73,7 +74,7 @@ function Projects() {
               ghLink="https://github.com/Dhruvanand24/taskmanager"
               demoLink="https://taskmanager-1xlb.vercel.app/login"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
